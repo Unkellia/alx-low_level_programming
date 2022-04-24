@@ -21,7 +21,7 @@ p++;
 
 for (k = 0; k < i / 2; k++)
 {
-ux = a[k];
+aux = a[k];
 a[k] = *p;
 *p = aux;
 p--;
